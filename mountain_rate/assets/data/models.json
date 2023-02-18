@@ -1,0 +1,164 @@
+[
+    {
+        "file_name": "burnaby_mountain.jpg",
+        "display_name": "Burnaby Mountain",
+        "height": "370 m (1,214 ft) ",
+        "location": "Canada",
+        "climbers": "Mitchell Gale",
+        "type": "Forested",
+        "fact": "Home to the world's best university!"
+    },
+    {
+        "file_name": "mount_everest.jpg",
+        "display_name": "Mount Everest",
+        "height": "8,844 m (29,017 ft)",
+        "location": "Nepal",
+        "climbers": "Norgay and Sir Edmund Hillary",
+        "type": "Fold",
+        "fact": "Mount Everest rises 40 cm per century!"
+    },
+    {
+        "file_name": "k2.jpg",
+        "display_name": "K2",
+        "height": "8,611 m (28,251 ft)",
+        "location": "Pakistan",
+        "climbers": "Lino Lacedelli and Achille Compagnoni",
+        "type": "Fold",
+        "fact": "Second highest mountain on earth!"
+    },
+    {
+        "file_name": "denali.jpg",
+        "display_name": "Denali",
+        "height": "6,190 m (20,310 ft)",
+        "location": "USA",
+        "climbers": "Hudson Stuck, Harry Karstens, Walter Harper, and Robert Tatum",
+        "type": "Granitic pluton",
+        "fact": "Highest mountain peak in North America"
+    },
+    {
+        "file_name": "mount_logan.jpg",
+        "display_name": "Mount Logan",
+        "height": "5,959 m (19,551 ft)",
+        "location": "Canada",
+        "climbers": "Albert H. MacCarthy ",
+        "type": "Granodiorite",
+        "fact": "Pierre Trudeau, almost renamed Mount Logan to Mount Trudeau!"
+    },
+    {
+        "file_name": "kilimanjaro.jpg",
+        "display_name": "Mount Kilimanjaro",
+        "height": "5,895 m (19,341 ft)",
+        "location": "Tanzania",
+        "climbers": "Fritz Klute",
+        "type": "Stratovolcano",
+        "fact": "Highest freestanding mountain in the world"
+    },
+    {
+        "file_name": "kangchenjunga.jpg",
+        "display_name": "Kangchenjunga",
+        "height": "7,756 m (25,447 ft)",
+        "location": "Himalayas",
+        "climbers": "Joe Brown, George Band",
+        "type": "Sacred",
+        "fact": "UNESCO world heritage site"
+    },
+    {
+        "file_name": "saint_elias.jpg",
+        "display_name": "Mount Saint Elias",
+        "height": "5,489 m (18, 008 ft)",
+        "location": "Canada/USA",
+        "climbers": "Luigi Amedeo",
+        "type": "Volcano",
+        "fact": "Sits on the Yukon and Alaska border"
+    },
+    {
+        "file_name": "aconcagua.jpg",
+        "display_name": "Aconcagua",
+        "height": "6,960 m (22,837 ft)",
+        "location": "Argentina",
+        "climbers": "Karl Egloff",
+        "type": "Inactive Volcano",
+        "fact": "Highest non-technical mountain in the world"
+    },
+    {
+        "file_name": "elbrus.jpg",
+        "display_name": "Mount Elbrus",
+        "height": "5,642 m (18, 510 ft)",
+        "location": "Russia",
+        "climbers": "Georgi Emmanuel",
+        "type": "Stratovolcano",
+        "fact": "Nazis place a swastika on the summit during WW2"
+    },
+    {
+        "file_name": "lucania.jpeg",
+        "display_name": "Mount Lucania",
+        "height": "5,420 m (17,190 ft)",
+        "location": "Canada",
+        "climbers": "Bradford Washburn",
+        "type": "Inactive Volcano",
+        "fact": "Named after a ship that sailed from Liverpool to New York"
+    },
+    {
+        "file_name": "fairweather.jpg",
+        "display_name": "Mount Fairweather",
+        "height": "4,653 m (15,266 ft)",
+        "location": "Canada",
+        "climbers": "Allen Carpe",
+        "type": "Coastal",
+        "fact": "Named based on the unusually good weather at the time"
+    },
+    {
+        "file_name": "nanga_parbat.jpg",
+        "display_name": "Nanga Parbat",
+        "height": "8,126 m (26,660 ft)",
+        "location": "Pakistan",
+        "climbers": "Hermann Buhl",
+        "type": "Fold",
+        "fact": "The Kashmiri name Nanga Parbat is derived from the Sanskrit words nagna parvata, meaning \u201cnaked mountain.\u201d"
+    },
+    {
+        "file_name": "orizaba.jpg",
+        "display_name": "Pico de Orizaba",
+        "height": "5,6363 m (18,491 ft)",
+        "location": "Mexico",
+        "climbers": "William F. Raynolds",
+        "type": "Stratovolcano",
+        "fact": "Was first summitted during and American occupation"
+    },
+    {
+        "file_name": "kongurtagh.jpg",
+        "display_name": "Kongur Tagh",
+        "height": "7,649 m (25,095 ft)",
+        "location": "China",
+        "climbers": "Chris Bonington, Al Rouse",
+        "type": "Fold",
+        "fact": "Kongur was not discovered until 1900 by Europeans due to its remoteness and being hidden by nearby peaks."
+    },
+    {
+        "file_name": "rainier.jpg",
+        "display_name": "Mount Rainier",
+        "height": "4,392 m (14,411 ft)",
+        "location": "USA",
+        "climbers": "Philemon Beecher Van Trump",
+        "type": "Volcano",
+        "fact": "Is considered to be one of the most dangerous volcanos in the world"
+    },
+    {
+        "file_name": "hubbard.jpg",
+        "display_name": "Mount Hubbard",
+        "height": "4,557 m (14,951 ft)",
+        "location": "Canada/USA",
+        "climbers": "Walter Wood",
+        "type": "Fold",
+        "fact": "The mountain was named in 1890 by U.S. Geological Survey geologist Israel Russell after Gardiner Greene Hubbard"
+    },
+    {
+        "file_name": "damavand.jpg",
+        "display_name": "Mount Damavand",
+        "height": "5,671 m (18,606 ft)",
+        "location": "Iran",
+        "climbers": "Abu Dolaf Kazraji",
+        "type": "Stratovolcano",
+        "fact": "In Zoroastrian texts and mythology, the three-headed dragon A\u017ei Dah\u0101ka was chained within Mount Dam\u0101vand, there to remain until the end of the world."
+    }
+]
