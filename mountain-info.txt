@@ -1,0 +1,7 @@
+- Mountain Name
+- Mountain Elevation/Height
+- Mountain Location
+- People who have climbed?
+- Type of Mountain (volcano, other?)
+- Picture
+- Fun Fact
