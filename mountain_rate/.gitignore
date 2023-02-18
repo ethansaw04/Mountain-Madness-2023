@@ -43,6 +43,9 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
+# Isabelle's ignore 
+.vscode/*
+
 /windows/flutter/generated_*
 /macos/flutter/Generated*
 /linux/flutter/generated_*
