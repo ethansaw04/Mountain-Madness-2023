@@ -16,7 +16,6 @@ class SplashScreen extends StatefulWidget {
 
 class _SplashScreenState extends State<SplashScreen> {
   List<MountainModel> list = List.empty(growable: true);
-  int current_index = 0;
 
   @override
   void initState() {
@@ -26,6 +25,8 @@ class _SplashScreenState extends State<SplashScreen> {
 
   @override
   Widget build(BuildContext context) {
+    double height = MediaQuery.of(context).size.height;
+
     return Scaffold(
         body: Container(
       decoration: const BoxDecoration(
@@ -34,10 +35,10 @@ class _SplashScreenState extends State<SplashScreen> {
               fit: BoxFit.cover)),
       child: Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: const <Widget>[
-            Padding(padding: EdgeInsets.only(top: 10.0)),
-            Expanded(
+          // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: <Widget>[
+            const Padding(padding: EdgeInsets.only(top: 50.0)),
+            const SizedBox(
                 child: Text("\nHow Mountain is  \nthat Mountain?  ",
                     textAlign: TextAlign.left,
                     style: TextStyle(
@@ -47,14 +48,30 @@ class _SplashScreenState extends State<SplashScreen> {
                         height: 1,
                         fontWeight: FontWeight.bold,
                         color: Colors.black))),
-            Text(
-              "Loading..",
-              style: TextStyle(fontSize: 20.0, color: Colors.blue),
+            SizedBox(
+              height: height * 0.5,
             ),
-            Padding(padding: EdgeInsets.only(bottom: 20.0)),
-            CircularProgressIndicator(
-              backgroundColor: Colors.white,
-              strokeWidth: 5,
+            // const Padding(padding: EdgeInsets.only(bottom: 450)),
+            // Padding(
+            //   padding: EdgeInsets.only(top: 50, bottom: 50),
+            // ),
+            // SizedBox(height: 250),
+            Column(
+              children: const [
+                Text(
+                  "Loading..",
+                  style: TextStyle(
+                      fontSize: 40.0,
+                      color: Colors.black,
+                      fontWeight: FontWeight.bold),
+                ),
+                Padding(padding: EdgeInsets.only(bottom: 20.0)),
+                CircularProgressIndicator(
+                  backgroundColor: Colors.white,
+                  strokeWidth: 10,
+                  color: Colors.black,
+                )
+              ],
             )
           ],
         ),
@@ -64,7 +81,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
   startTime() async {
     readJSON().then((value) {
-      // Timer(const Duration(seconds: 3), () => route(value));
+      Timer(const Duration(milliseconds: 4500), () => route(value));
     });
   }
 

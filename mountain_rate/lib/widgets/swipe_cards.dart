@@ -26,25 +26,12 @@ class _CardWidgetState extends State<CardWidget> {
       swipeItems.add(SwipeItem(
           content: widget.modelsList[i],
           likeAction: () {
-            isLiked = true;
-            ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-              content: Text("Liked ${widget.modelsList[i].displayName}"),
-              duration: Duration(milliseconds: 500),
-            ));
+            widget.controller.addLiked(widget.modelsList[i]);
           },
           nopeAction: () {
-            isLiked = false;
-            ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-              content: Text("Disliked ${widget.modelsList[i].displayName}"),
-              duration: Duration(milliseconds: 500),
-            ));
+            widget.controller.addDisliked(widget.modelsList[i]);
           },
-          superlikeAction: () {
-            ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-              content: Text("SuperLiked ${widget.modelsList[i].displayName}"),
-              duration: Duration(milliseconds: 500),
-            ));
-          }));
+          superlikeAction: () {}));
     }
 
     matchEngine = MatchEngine(swipeItems: swipeItems);
@@ -72,18 +59,9 @@ class _CardWidgetState extends State<CardWidget> {
                     ))));
       },
       onStackFinished: () {
-        ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-          content: Text("StackDone"),
-          duration: Duration(milliseconds: 500),
-        ));
+        widget.controller.goLikedScreen(context);
       },
-      itemChanged: (SwipeItem item, int index) {
-        if (isLiked) {
-          widget.controller.addLiked(item.content);
-        } else {
-          widget.controller.addDisliked(item.content);
-        }
-      },
+      itemChanged: (SwipeItem item, int index) {},
       upSwipeAllowed: false,
       fillSpace: true,
     );

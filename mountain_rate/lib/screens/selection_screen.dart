@@ -19,12 +19,12 @@ class _SelectionScreenState extends State<SelectionScreen> {
   Widget build(BuildContext context) {
     return Container(
         constraints: const BoxConstraints.expand(),
-        color: Colors.indigo,
+        color: Colors.blue[300],
         child: Expanded(
             child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            const Padding(padding: EdgeInsets.only(top: 40.0)),
+            const Padding(padding: EdgeInsets.only(top: 30.0)),
             const Text("Good Mountain Bad Mountain????",
                 textAlign: TextAlign.center,
                 style: TextStyle(
@@ -32,28 +32,43 @@ class _SelectionScreenState extends State<SelectionScreen> {
                     decoration: TextDecoration.none,
                     fontSize: 100,
                     height: 0.75,
-                    color: Color.fromRGBO(47, 235, 97, 1))),
+                    color: Colors.black)),
+            const SizedBox(
+              height: 30,
+            ),
             Expanded(
               child: CardWidget(
                   modelsList: widget.modelList, controller: widget.controller),
-              // height: 100,
-              // width: 100,
             ),
-            TextButton(
-              style: ButtonStyle(
-                foregroundColor: MaterialStateProperty.all<Color>(Colors.blue),
-              ),
-              onPressed: () => route(widget.controller.likedList, widget.controller.dislikedList), 
-              child: Text('View liked/disliked')
+            Padding(
+                padding: const EdgeInsets.only(right: 50),
+                child: Align(
+                    alignment: Alignment.centerRight,
+                    // child: SizedBox(
+                    //     width: 150,
+                    //     height: 50,
+                    child: Material(
+                        color: Colors.transparent,
+                        child: IconButton(
+                          icon: const Icon(
+                            Icons.favorite,
+                          ),
+                          iconSize: 75,
+                          style: ButtonStyle(
+                              backgroundColor: MaterialStateProperty.all<Color>(
+                                  Colors.transparent)),
+                          // style: ButtonStyle(
+                          //     backgroundColor:
+                          //         MaterialStateProperty.all<Color>(Colors.black),
+                          //     foregroundColor: MaterialStateProperty.all<Color>(
+                          //         Colors.transparent)),
+                          onPressed: () =>
+                              widget.controller.goLikedScreen(context),
+                        )))),
+            const SizedBox(
+              height: 20,
             )
           ],
         )));
-  }
-
-  route(liked, disliked) {
-    Navigator.push(
-        context,
-        MaterialPageRoute(
-            builder: (context) => LikedScreen(likedList: liked, dislikedList: disliked)));
   }
 }
