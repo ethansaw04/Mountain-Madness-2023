@@ -85,12 +85,27 @@ class _SelectionScreenState extends State<SelectionScreen> {
                           onPressed: () =>
                               widget.controller.goLikedScreen(context),
                         ))),
-                    Align(
-                      alignment: Alignment.center,
-                      child: Text(widget.controller.getQuote())
-                    )
+                    // Align(
+                    //   alignment: Alignment.center,
+                    //   child: Text(widget.controller.getQuote(),
+                    //     //textAlign: TextAlign.center,
+                    //     style: TextStyle(
+                    //       //fontFamily: "Reglisse Back",
+                    //       decoration: TextDecoration.none,
+                    //       fontSize: 20,
+                    //       height: 0.75,
+                    //       color: Color.fromRGBO(247, 240, 229, 1))),
+                    // )
                   ],
                 )),
+              Text(widget.controller.getQuote(),
+                //textAlign: TextAlign.center,
+                style: TextStyle(
+                  //fontFamily: "Reglisse Back",
+                  decoration: TextDecoration.none,
+                  fontSize: 20,
+                  height: 0.75,
+                  color: Color.fromRGBO(247, 240, 229, 1))),
             const SizedBox(
               height: 20,
             )
