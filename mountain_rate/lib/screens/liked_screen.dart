@@ -73,6 +73,8 @@ class _LikedScreenState extends State<LikedScreen> {
         child: Column(
       children: <Widget>[
         ListTile(
+          dense: true,
+          visualDensity: VisualDensity(vertical: 4),
           leading: Image.asset(
             "assets/images/${itemUIList[index].fileName}",
             fit: BoxFit.cover,
