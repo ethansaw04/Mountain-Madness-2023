@@ -54,37 +54,60 @@ class _CardWidgetState extends State<CardWidget> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        body: Container(
-            child: Column(
-      children: [
-        Container(
-          height: 550,
-          child: SwipeCards(
-            matchEngine: matchEngine,
-            itemBuilder: (BuildContext context, int index) {
-              return Container(
-                  alignment: Alignment.center,
-                  child: Text(
-                    (swipeItems[index].content as MountainModel).displayName,
-                    style: TextStyle(fontSize: 100, color: Colors.red),
-                  ));
-            },
-            onStackFinished: () {
-              ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-                content: Text("StackDone"),
-                duration: Duration(milliseconds: 500),
-              ));
-            },
-            itemChanged: (SwipeItem item, int index) {
-              print('item: , index: $index');
-            },
-            upSwipeAllowed: false,
-            fillSpace: true,
-          ),
-        ),
-      ],
-    )));
+    return SwipeCards(
+      matchEngine: matchEngine,
+      itemBuilder: (BuildContext context, int index) {
+        return Container(
+            alignment: Alignment.center,
+            decoration: BoxDecoration(color: Colors.purple),
+            child: Text(
+              (swipeItems[index].content as MountainModel).displayName,
+              style: TextStyle(fontSize: 100, color: Colors.red),
+            ));
+      },
+      onStackFinished: () {
+        ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+          content: Text("StackDone"),
+          duration: Duration(milliseconds: 500),
+        ));
+      },
+      itemChanged: (SwipeItem item, int index) {
+        print('item: , index: $index');
+      },
+      upSwipeAllowed: false,
+      fillSpace: true,
+    );
+    // return Scaffold(
+    //     body: Container(
+    //         child: Column(
+    //   children: [
+    //     Container(
+    //       height: 550,
+    //       child: SwipeCards(
+    //         matchEngine: matchEngine,
+    //         itemBuilder: (BuildContext context, int index) {
+    //           return Container(
+    //               alignment: Alignment.center,
+    //               child: Text(
+    //                 (swipeItems[index].content as MountainModel).displayName,
+    //                 style: TextStyle(fontSize: 100, color: Colors.red),
+    //               ));
+    //         },
+    //         onStackFinished: () {
+    //           ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+    //             content: Text("StackDone"),
+    //             duration: Duration(milliseconds: 500),
+    //           ));
+    //         },
+    //         itemChanged: (SwipeItem item, int index) {
+    //           print('item: , index: $index');
+    //         },
+    //         upSwipeAllowed: false,
+    //         fillSpace: true,
+    //       ),
+    //     ),
+    //   ],
+    // )));
   }
 }
 
