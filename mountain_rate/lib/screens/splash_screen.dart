@@ -64,7 +64,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
   startTime() async {
     readJSON().then((value) {
-      // Timer(const Duration(seconds: 3), () => route(value));
+      Timer(const Duration(seconds: 3), () => route(value));
     });
   }
 
