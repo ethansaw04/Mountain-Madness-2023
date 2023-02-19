@@ -51,11 +51,6 @@ class _SplashScreenState extends State<SplashScreen> {
             SizedBox(
               height: height * 0.5,
             ),
-            // const Padding(padding: EdgeInsets.only(bottom: 450)),
-            // Padding(
-            //   padding: EdgeInsets.only(top: 50, bottom: 50),
-            // ),
-            // SizedBox(height: 250),
             Column(
               children: const [
                 Text(
