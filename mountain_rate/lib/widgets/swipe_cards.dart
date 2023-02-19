@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:mountain_rate/models/mountain_model.dart';
 import 'package:mountain_rate/widgets/swipe_card_builder.dart';
-import 'package:swipe_cards/draggable_card.dart';
 import 'package:swipe_cards/swipe_cards.dart';
+import 'package:mountain_rate/controller/gameplay_controller_manager.dart';
 
 class CardWidget extends StatefulWidget {
   List<MountainModel> modelsList;
-
-  CardWidget({Key? key, required this.modelsList}) : super(key: key);
+  CardManagerController controller;
+  CardWidget({Key? key, required this.modelsList, required this.controller})
+      : super(key: key);
 
   @override
   State<CardWidget> createState() => _CardWidgetState();
@@ -17,6 +18,7 @@ class _CardWidgetState extends State<CardWidget> {
   // stuff for the swipe cards
   late MatchEngine matchEngine;
   List<SwipeItem> swipeItems = List.empty(growable: true);
+  bool isLiked = false;
 
   @override
   void initState() {
@@ -24,12 +26,14 @@ class _CardWidgetState extends State<CardWidget> {
       swipeItems.add(SwipeItem(
           content: widget.modelsList[i],
           likeAction: () {
+            isLiked = true;
             ScaffoldMessenger.of(context).showSnackBar(SnackBar(
               content: Text("Liked ${widget.modelsList[i].displayName}"),
               duration: Duration(milliseconds: 500),
             ));
           },
           nopeAction: () {
+            isLiked = false;
             ScaffoldMessenger.of(context).showSnackBar(SnackBar(
               content: Text("Disliked ${widget.modelsList[i].displayName}"),
               duration: Duration(milliseconds: 500),
@@ -74,7 +78,11 @@ class _CardWidgetState extends State<CardWidget> {
         ));
       },
       itemChanged: (SwipeItem item, int index) {
-        print('item: , index: $index');
+        if (isLiked) {
+          widget.controller.addLiked(item.content);
+        } else {
+          widget.controller.addDisliked(item.content);
+        }
       },
       upSwipeAllowed: false,
       fillSpace: true,
