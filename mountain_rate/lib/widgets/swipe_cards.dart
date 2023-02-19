@@ -26,10 +26,10 @@ class _CardWidgetState extends State<CardWidget> {
       swipeItems.add(SwipeItem(
           content: widget.modelsList[i],
           likeAction: () {
-            isLiked = true;
+            widget.controller.addLiked(widget.modelsList[i]);
           },
           nopeAction: () {
-            isLiked = false;
+            widget.controller.addDisliked(widget.modelsList[i]);
           },
           superlikeAction: () {}));
     }
@@ -61,13 +61,7 @@ class _CardWidgetState extends State<CardWidget> {
       onStackFinished: () {
         widget.controller.goLikedScreen(context);
       },
-      itemChanged: (SwipeItem item, int index) {
-        if (isLiked) {
-          widget.controller.addLiked(item.content);
-        } else {
-          widget.controller.addDisliked(item.content);
-        }
-      },
+      itemChanged: (SwipeItem item, int index) {},
       upSwipeAllowed: false,
       fillSpace: true,
     );
