@@ -40,20 +40,13 @@ class _SelectionScreenState extends State<SelectionScreen> {
               // width: 100,
             ),
             TextButton(
-              style: ButtonStyle(
-                foregroundColor: MaterialStateProperty.all<Color>(Colors.blue),
-              ),
-              onPressed: () => route(widget.controller.likedList, widget.controller.dislikedList), 
-              child: Text('View liked/disliked')
-            )
+                style: ButtonStyle(
+                  foregroundColor:
+                      MaterialStateProperty.all<Color>(Colors.blue),
+                ),
+                onPressed: () => widget.controller.goLikedScreen(context),
+                child: Text('View liked/disliked'))
           ],
         )));
-  }
-
-  route(liked, disliked) {
-    Navigator.push(
-        context,
-        MaterialPageRoute(
-            builder: (context) => LikedScreen(likedList: liked, dislikedList: disliked)));
   }
 }
