@@ -376,5 +376,104 @@
         "fact": "The name Manaslu means \"mountain of the spirit\" and is derived from the Sanskrit word manasa, meaning \"intellect\" or \"soul\".",
         "climbers": "",
         "type": ""
+    },
+    {
+        "file_name": "aoraki.jpg",
+        "display_name": "Aoraki/ Mount Cook",
+        "height": "3,724 m (12,218 ft)",
+        "location": "New Zealand",
+        "fact": "According to M\u0101ori legend, Aoraki was a young boy who, along with his three brothers, were the sons of Rakinui, the Sky Father.",
+        "climbers": "",
+        "type": ""
+    },
+    {
+        "file_name": "vancouver.jpg",
+        "display_name": "Mount Vancouver",
+        "height": "\t4,812 m (15,787 ft)",
+        "location": "Canada/USA",
+        "fact": "The mountain was named by William Healey Dall in 1874 after George Vancouver, who explored the southeast coast of Alaska from 1792 to 1794",
+        "climbers": "",
+        "type": ""
+    },
+    {
+        "file_name": "pikespeak.jpg",
+        "display_name": "Pikes Peak",
+        "height": "4,302 m (14,115 ft)",
+        "location": "USA",
+        "fact": "The band of Ute people who called the Pikes Peak region their home were the Tabeguache, whose name means the \"People of Sun Mountain\".",
+        "climbers": "",
+        "type": ""
+    },
+    {
+        "file_name": "blancapeak.jpg",
+        "display_name": "Blanca Peak",
+        "height": " 4,374 m(14,351 ft)",
+        "location": "USA",
+        "fact": "The granite that makes up the Blanca massif is pre-Cambrian in age, dated at approximately 1.8 billion years old!",
+        "climbers": "",
+        "type": ""
+    },
+    {
+        "file_name": "mount-baker.jpg",
+        "display_name": "Mount Baker",
+        "height": "10,786 ft (3,288 m)",
+        "location": "USA",
+        "fact": "Two ammunition ships of the United States Navy (traditionally named for volcanoes) have been named after the mountain. (USS Mount Baker (AE-4) & USS Mount Baker (AE-34))",
+        "climbers": "",
+        "type": ""
+    },
+    {
+        "file_name": "kamet.jpg",
+        "display_name": "Kamet",
+        "height": "7,756 m (25,446 ft)",
+        "location": "India",
+        "fact": "The term \"glacier fire\" is used as an allusion to the name Kamet because at dawn and dusk, the copper colored rock of Mount Kamet reflects the sun on its hanging glaciers appears to set these glaciers aglow with crackling flames.",
+        "climbers": "",
+        "type": ""
+    },
+    {
+        "file_name": "lhotse.jpg",
+        "display_name": "Lhotse",
+        "height": "8,516 m (27,940 ft)",
+        "location": "China/Nepal",
+        "fact": "Lhotse is the fourth highest mountain in the world!",
+        "climbers": "",
+        "type": ""
+    },
+    {
+        "file_name": "volcan-tajumulco.jpg",
+        "display_name": "Volc\u00e1n Tajumulco",
+        "height": "4,203 m (13,789 ft)",
+        "location": "Guatemala",
+        "fact": "A lava flow from the north-western summit descends into a steep valley on the same side of the volcano!",
+        "climbers": "",
+        "type": ""
+    },
+    {
+        "file_name": "mount-shasta.jpg",
+        "display_name": "Mount Shasta",
+        "height": "4,322 m (14,179 ft)",
+        "location": "USA",
+        "fact": "During the last 10,000 years, Mount Shasta has erupted an average of every 800 years, but in the past 4,500 years the volcano has erupted an average of every 600 years!",
+        "climbers": "",
+        "type": ""
+    },
+    {
+        "file_name": "mount-steele.jpg",
+        "display_name": "Mount Steele",
+        "height": "5,073 m (16,644 ft)",
+        "location": "Canada",
+        "fact": "Mount Steele is the fifth-highest mountain in Canada!",
+        "climbers": "",
+        "type": ""
+    },
+    {
+        "file_name": "matterhorn.jpg",
+        "display_name": "Matterhorn",
+        "height": "4,478 m (14,692 ft)",
+        "location": "Switzerland",
+        "fact": "Matterhorn owes its fame to its almost perfect pyramid shape!",
+        "climbers": "",
+        "type": ""
     }
 ]
