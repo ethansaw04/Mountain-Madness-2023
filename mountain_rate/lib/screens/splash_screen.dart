@@ -25,6 +25,8 @@ class _SplashScreenState extends State<SplashScreen> {
 
   @override
   Widget build(BuildContext context) {
+    double height = MediaQuery.of(context).size.height;
+
     return Scaffold(
         body: Container(
       decoration: const BoxDecoration(
@@ -46,7 +48,10 @@ class _SplashScreenState extends State<SplashScreen> {
                         height: 1,
                         fontWeight: FontWeight.bold,
                         color: Colors.black))),
-            const Padding(padding: EdgeInsets.only(bottom: 450)),
+            SizedBox(
+              height: height * 0.5,
+            ),
+            // const Padding(padding: EdgeInsets.only(bottom: 450)),
             // Padding(
             //   padding: EdgeInsets.only(top: 50, bottom: 50),
             // ),
