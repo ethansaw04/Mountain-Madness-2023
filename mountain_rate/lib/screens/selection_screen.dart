@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mountain_rate/models/mountain_model.dart';
 import 'package:mountain_rate/widgets/swipe_cards.dart';
 import 'package:mountain_rate/controller/gameplay_controller_manager.dart';
+import 'package:mountain_rate/screens/liked_screen.dart';
 
 class SelectionScreen extends StatefulWidget {
   List<MountainModel> modelList;
@@ -37,8 +38,22 @@ class _SelectionScreenState extends State<SelectionScreen> {
                   modelsList: widget.modelList, controller: widget.controller),
               // height: 100,
               // width: 100,
+            ),
+            TextButton(
+              style: ButtonStyle(
+                foregroundColor: MaterialStateProperty.all<Color>(Colors.blue),
+              ),
+              onPressed: () => route(widget.controller.likedList, widget.controller.dislikedList), 
+              child: Text('View liked/disliked')
             )
           ],
         )));
+  }
+
+  route(liked, disliked) {
+    Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(
+            builder: (context) => LikedScreen(likedList: liked, dislikedList: disliked)));
   }
 }
