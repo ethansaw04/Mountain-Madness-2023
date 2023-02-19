@@ -20,22 +20,26 @@ class _LikedScreenState extends State<LikedScreen> {
     //   child: Text("There are ${widget.likedList.length} liked models and ${widget.dislikedList.length} disliked models"),
     // );
     return Scaffold(
-        appBar: AppBar(
-          leading: IconButton(
-            icon: const Icon(Icons.arrow_back_ios, color: Colors.black),
-            onPressed: () => Navigator.of(context).pop(),
+      appBar: AppBar(
+        leading: TextButton(
+          style: ButtonStyle(
+            foregroundColor: MaterialStateProperty.all<Color>(Colors.black),
+            backgroundColor: MaterialStatePropertyAll(Colors.white),
           ),
-          title: Text(
-            "Which mountains did you like?",
-            style: TextStyle(
-                fontSize: 18.0,
-                fontWeight: FontWeight.bold,
-                color: Colors.black87),
-          ),
+          child: Text('Back'),
+          onPressed: () => Navigator.of(context).pop(),
+        ), 
+        title: Text(
+          "     Which mountains did you like?",
+          style: TextStyle(
+              fontSize: 18.0,
+              fontWeight: FontWeight.bold,
+              color: Colors.black87),
         ),
-        body: Padding(
-            padding: const EdgeInsets.fromLTRB(0.0, 10.0, 0.0, 0.0),
-            child: getBodyContent(context)));
+      ),
+      body: Padding(
+          padding: EdgeInsets.fromLTRB(0.0, 10.0, 0.0, 0.0),
+          child: getBodyContent(context)));
   }
 
   getBodyContent(BuildContext context) {
@@ -69,6 +73,8 @@ class _LikedScreenState extends State<LikedScreen> {
         child: Column(
       children: <Widget>[
         ListTile(
+          dense: true,
+          visualDensity: VisualDensity(vertical: 4),
           leading: Image.asset(
             "assets/images/${itemUIList[index].fileName}",
             fit: BoxFit.cover,
