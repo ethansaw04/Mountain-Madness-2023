@@ -22,7 +22,7 @@ class _SelectionScreenState extends State<SelectionScreen> {
   void initTimer() {
     if (timer != null && timer!.isActive) return;
 
-    timer = Timer.periodic(const Duration(seconds: 5), (timer) {
+    timer = Timer.periodic(const Duration(seconds: 10), (timer) {
     //job
       setState(() {});
     });
