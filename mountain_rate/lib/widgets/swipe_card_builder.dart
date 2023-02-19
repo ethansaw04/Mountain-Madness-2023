@@ -20,32 +20,36 @@ class CardBuilderFromModel extends StatelessWidget {
                   child: Image.asset("assets/images/${model.fileName}"),
                 ),
                 Text(
-                  model.displayName,
+                  "${model.displayName} (${model.location})",
                   style: const TextStyle(
                       fontStyle: FontStyle.italic,
                       fontWeight: FontWeight.bold,
-                      fontSize: 30),
+                      fontSize: 40),
                 ),
                 Text(
                   model.height,
-                  style: TextStyle(fontSize: 20),
+                  style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
                 ),
-                Text(
-                  model.location,
-                  style: TextStyle(fontSize: 20),
+                const SizedBox(
+                  height: 25,
                 ),
-                Text(
-                  model.type,
-                  style: TextStyle(fontSize: 20),
-                ),
-                Text(
-                  model.climbers,
-                  style: TextStyle(fontSize: 20),
-                ),
-                Text(
-                  model.fact,
-                  style: TextStyle(fontSize: 20),
-                ),
+                // Text(
+                //   model.type,
+                //   style: TextStyle(fontSize: 20),
+                // ),
+                // Text(
+                //   model.climbers,
+                //   style: TextStyle(fontSize: 20),
+                // ),
+                Center(
+                    child: Text(
+                  "Mountain Fact: ${model.fact}",
+                  style: TextStyle(fontSize: 25),
+                ))
+                // Text(
+                //   model.fact,
+                //   style: TextStyle(fontSize: 25),
+                // ),
               ],
             )));
   }
