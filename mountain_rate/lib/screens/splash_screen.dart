@@ -84,6 +84,7 @@ class _SplashScreenState extends State<SplashScreen> {
     for (var i = 0; i < data.length; i++) {
       list.add(MountainModel.fromJSON(data[i]));
     }
+    list.shuffle();
     return list;
   }
 }

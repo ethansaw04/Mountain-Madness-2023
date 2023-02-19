@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mountain_rate/models/mountain_model.dart';
+import 'package:mountain_rate/widgets/swipe_card_builder.dart';
 import 'package:swipe_cards/draggable_card.dart';
 import 'package:swipe_cards/swipe_cards.dart';
 
@@ -17,14 +18,8 @@ class _CardWidgetState extends State<CardWidget> {
   late MatchEngine matchEngine;
   List<SwipeItem> swipeItems = List.empty(growable: true);
 
-  // @override
-  // Widget build(BuildContext context) {
-  //   return Container();
-  // }
-
   @override
   void initState() {
-    // TODO: implement initState
     for (var i = 0; i < widget.modelsList.length; i++) {
       swipeItems.add(SwipeItem(
           content: widget.modelsList[i],
@@ -54,16 +49,23 @@ class _CardWidgetState extends State<CardWidget> {
 
   @override
   Widget build(BuildContext context) {
+    double height = MediaQuery.of(context).size.height;
+    double width = MediaQuery.of(context).size.width;
+
     return SwipeCards(
       matchEngine: matchEngine,
       itemBuilder: (BuildContext context, int index) {
-        return Container(
-            alignment: Alignment.center,
-            decoration: BoxDecoration(color: Colors.purple),
-            child: Text(
-              (swipeItems[index].content as MountainModel).displayName,
-              style: TextStyle(fontSize: 100, color: Colors.red),
-            ));
+        return Center(
+            child: SizedBox(
+                height: height * 0.8,
+                width: width * 0.6,
+                child: Container(
+                    color: Colors.white,
+                    alignment: Alignment.center,
+                    child: SizedBox.expand(
+                      child: CardBuilderFromModel(
+                          model: swipeItems[index].content),
+                    ))));
       },
       onStackFinished: () {
         ScaffoldMessenger.of(context).showSnackBar(SnackBar(
@@ -77,38 +79,5 @@ class _CardWidgetState extends State<CardWidget> {
       upSwipeAllowed: false,
       fillSpace: true,
     );
-    // return Scaffold(
-    //     body: Container(
-    //         child: Column(
-    //   children: [
-    //     Container(
-    //       height: 550,
-    //       child: SwipeCards(
-    //         matchEngine: matchEngine,
-    //         itemBuilder: (BuildContext context, int index) {
-    //           return Container(
-    //               alignment: Alignment.center,
-    //               child: Text(
-    //                 (swipeItems[index].content as MountainModel).displayName,
-    //                 style: TextStyle(fontSize: 100, color: Colors.red),
-    //               ));
-    //         },
-    //         onStackFinished: () {
-    //           ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-    //             content: Text("StackDone"),
-    //             duration: Duration(milliseconds: 500),
-    //           ));
-    //         },
-    //         itemChanged: (SwipeItem item, int index) {
-    //           print('item: , index: $index');
-    //         },
-    //         upSwipeAllowed: false,
-    //         fillSpace: true,
-    //       ),
-    //     ),
-    //   ],
-    // )));
   }
 }
-
-// Stuff for Swipe Cards
