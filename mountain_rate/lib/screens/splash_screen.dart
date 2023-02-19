@@ -30,31 +30,31 @@ class _SplashScreenState extends State<SplashScreen> {
         body: Container(
       decoration: const BoxDecoration(
           image: DecorationImage(
-              image: AssetImage("assets/images/home_art.jpg"),
+              image: AssetImage("assets/images/mountainback.jpg"),
               fit: BoxFit.cover)),
       child: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: const <Widget>[
-            Padding(padding: EdgeInsets.only(top: 20.0)),
+            Padding(padding: EdgeInsets.only(top: 10.0)),
             Expanded(
-                child: Text("How Mountain is that Mountain?",
-                    textAlign: TextAlign.center,
+                child: Text("\nHow Mountain is  \nthat Mountain?  ",
+                    textAlign: TextAlign.left,
                     style: TextStyle(
                         fontFamily: "Reglisse Back",
                         decoration: TextDecoration.none,
-                        fontSize: 100,
-                        height: 0.75,
+                        fontSize: 85,
+                        height: 1,
+                        fontWeight: FontWeight.bold,
                         color: Colors.black))),
-            Padding(padding: EdgeInsets.only(top: 20.0)),
             Text(
               "Loading..",
               style: TextStyle(fontSize: 20.0, color: Colors.blue),
             ),
-            Padding(padding: EdgeInsets.only(top: 20.0)),
+            Padding(padding: EdgeInsets.only(bottom: 20.0)),
             CircularProgressIndicator(
               backgroundColor: Colors.white,
-              strokeWidth: 3,
+              strokeWidth: 5,
             )
           ],
         ),
@@ -64,7 +64,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
   startTime() async {
     readJSON().then((value) {
-      Timer(const Duration(seconds: 3), () => route(value));
+      // Timer(const Duration(seconds: 3), () => route(value));
     });
   }
 
