@@ -29,13 +29,13 @@ class _LikedScreenState extends State<LikedScreen> {
           child: Text('Back'),
           onPressed: () => Navigator.of(context).pop(),
         ), 
-        title: Text(
+        title: Center (child: Text(
           "     Which mountains did you like?",
           style: TextStyle(
               fontSize: 18.0,
               fontWeight: FontWeight.bold,
               color: Colors.black87),
-        ),
+        )),
       ),
       body: Padding(
           padding: EdgeInsets.fromLTRB(0.0, 10.0, 0.0, 0.0),
@@ -111,7 +111,7 @@ class _LikedScreenState extends State<LikedScreen> {
                           itemUIList[index].displayName,
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
-                            fontSize: 20,
+                            fontSize: 25,
                           ),
                         ),
                       ),
@@ -123,7 +123,7 @@ class _LikedScreenState extends State<LikedScreen> {
                         child: Text(
                           'Height: ${itemUIList[index].height}. Located in ${itemUIList[index].location}',
                           style: TextStyle(
-                            fontSize: 16,
+                            fontSize: 20,
                           ),
                         ),
                       ),
@@ -137,7 +137,7 @@ class _LikedScreenState extends State<LikedScreen> {
                       child: Text(
                         trailingText,
                         style: TextStyle(
-                          fontSize: 20,
+                          fontSize: 25,
                           fontWeight: FontWeight.bold,
                           color: trailingColor
                         ),
