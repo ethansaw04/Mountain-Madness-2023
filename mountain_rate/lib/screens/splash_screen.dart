@@ -14,12 +14,25 @@ class _SplashScreenState extends State<SplashScreen> {
     double width = MediaQuery.of(context).size.width;
 
     return Center(
-      child: SizedBox(
-        height: height,
-        width: width,
+      child: Container(child: Image.asset("assets/images.jpg"),)
+  //     child: Container(
+  //     height: 200,
+  //     width: double.infinity,
+  //     decoration: const BoxDecoration(
+  //     image: DecorationImage(
+  //         image: Image.asset("assets/images/home_art.jpg"),
+  //         fit: BoxFit.cover),
+  // )
         child:
-            Expanded(child: Image.asset("/home/evan/Downloads/mountain.jpg")),
-      ),
+            Expanded(child: 
+                Text("""\nHow Mountain is 
+that Mountain?""",
+                      textAlign: TextAlign.center,
+                      style:TextStyle(fontFamily:"Reglisse Back",
+                      decoration: TextDecoration.none,
+                      fontSize: 100,
+                      height: 0.75,
+                      color:Colors.blue[200]))),
     );
   }
 }
