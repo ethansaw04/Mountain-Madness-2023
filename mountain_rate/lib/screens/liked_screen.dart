@@ -72,37 +72,83 @@ class _LikedScreenState extends State<LikedScreen> {
     return Card(
         child: Column(
       children: <Widget>[
-        ListTile(
-          dense: true,
-          visualDensity: VisualDensity(vertical: 4),
-          leading: Image.asset(
-            "assets/images/${itemUIList[index].fileName}",
-            fit: BoxFit.cover,
-            width: 100.0,
-          ),
-          title: Text(
-            itemUIList[index].displayName,
-            style: TextStyle(fontSize: 14.0, fontWeight: FontWeight.bold),
-          ),
-          subtitle: Column(
-              mainAxisAlignment: MainAxisAlignment.start,
+        Container(
+          width: MediaQuery.of(context).size.width * 0.94,
+          child: Card(
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(0.0),
+            ),
+          color: Colors.white70,
+          elevation: 10,
+            child: Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
-                Text(itemUIList[index].location,
-                    style: const TextStyle(
-                        fontSize: 13.0, fontWeight: FontWeight.normal)),
-                Text('Height: ${itemUIList[index].height}',
-                    style: const TextStyle(
-                        fontSize: 11.0, fontWeight: FontWeight.normal)),
-              ]),
-          trailing: Text(
-            trailingText,
-            style: TextStyle(
-                fontSize: 14.0,
-                fontWeight: FontWeight.bold,
-                color: trailingColor),
+                Padding(
+                  padding: const EdgeInsets.all(2.0),
+                  child: ConstrainedBox(
+                    constraints: BoxConstraints(
+                      //maxWidth: MediaQuery.of(context).size.width * 0.28,
+                      //maxHeight: MediaQuery.of(context).size.width * 0.28,
+                      maxHeight: MediaQuery.of(context).size.width * 0.15,
+                      minHeight: MediaQuery.of(context).size.width * 0.15,
+                      maxWidth: MediaQuery.of(context).size.width * 0.28,
+                      minWidth: MediaQuery.of(context).size.width * 0.28,
+                    ),
+                    child: Image.asset(
+                        'assets/images/${itemUIList[index].fileName}',
+                        fit: BoxFit.fill
+                    ),
+                  ),
+                ),
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Container(
+                      width: MediaQuery.of(context).size.width * 0.5,
+                      child: Padding(
+                        padding: const EdgeInsets.fromLTRB(10, 10, 0, 0),
+                        child: Text(
+                          itemUIList[index].displayName,
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 20,
+                          ),
+                        ),
+                      ),
+                    ),
+                    Container(
+                      width: MediaQuery.of(context).size.width * 0.5,
+                      child: Padding(
+                        padding: const EdgeInsets.fromLTRB(5, 10, 0, 0),
+                        child: Text(
+                          'Height: ${itemUIList[index].height}. Located in ${itemUIList[index].location}',
+                          style: TextStyle(
+                            fontSize: 16,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+                Column(
+                  children: <Widget>[
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(5, 40, 0, 0),
+                      child: Text(
+                        trailingText,
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                          color: trailingColor
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ],
+            ),
           ),
-        )
+        ),
       ],
     ));
   }
