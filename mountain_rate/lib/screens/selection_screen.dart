@@ -51,7 +51,7 @@ class _SelectionScreenState extends State<SelectionScreen> {
   }
 
   route(liked, disliked) {
-    Navigator.pushReplacement(
+    Navigator.push(
         context,
         MaterialPageRoute(
             builder: (context) => LikedScreen(likedList: liked, dislikedList: disliked)));
