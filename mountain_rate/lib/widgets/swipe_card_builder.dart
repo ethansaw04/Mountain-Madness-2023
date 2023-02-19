@@ -10,7 +10,7 @@ class CardBuilderFromModel extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
         elevation: 100,
-        color: Colors.orange,
+        color: Color.fromRGBO(247, 240, 229, 1),
         child: Padding(
             padding: const EdgeInsets.all(20.0),
             child: Column(
