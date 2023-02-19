@@ -46,7 +46,7 @@ class _SplashScreenState extends State<SplashScreen> {
                         height: 1,
                         fontWeight: FontWeight.bold,
                         color: Colors.black))),
-            Padding(padding: EdgeInsets.only(bottom: 450)),
+            const Padding(padding: EdgeInsets.only(bottom: 450)),
             // Padding(
             //   padding: EdgeInsets.only(top: 50, bottom: 50),
             // ),
