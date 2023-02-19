@@ -3,6 +3,7 @@ import 'package:mountain_rate/models/mountain_model.dart';
 import 'package:mountain_rate/widgets/swipe_cards.dart';
 import 'package:mountain_rate/controller/gameplay_controller_manager.dart';
 import 'package:mountain_rate/screens/liked_screen.dart';
+import 'dart:async';
 
 class SelectionScreen extends StatefulWidget {
   List<MountainModel> modelList;
@@ -15,8 +16,26 @@ class SelectionScreen extends StatefulWidget {
 }
 
 class _SelectionScreenState extends State<SelectionScreen> {
+  Timer? timer;
+
+  void initTimer() {
+    if (timer != null && timer!.isActive) return;
+
+    timer = Timer.periodic(const Duration(seconds: 5), (timer) {
+    //job
+      setState(() {});
+    });
+  }
+
+  @override
+  void dispose() {
+    timer?.cancel();
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
+    initTimer();
     return Container(
         constraints: const BoxConstraints.expand(),
         color: Colors.blue[300],
@@ -42,11 +61,10 @@ class _SelectionScreenState extends State<SelectionScreen> {
             ),
             Padding(
                 padding: const EdgeInsets.only(right: 50),
-                child: Align(
+                child: Stack(
+                  children: [
+                    Align(
                     alignment: Alignment.centerRight,
-                    // child: SizedBox(
-                    //     width: 150,
-                    //     height: 50,
                     child: Material(
                         color: Colors.transparent,
                         child: IconButton(
@@ -65,7 +83,13 @@ class _SelectionScreenState extends State<SelectionScreen> {
                           //         Colors.transparent)),
                           onPressed: () =>
                               widget.controller.goLikedScreen(context),
-                        )))),
+                        ))),
+                    Align(
+                      alignment: Alignment.center,
+                      child: Text(widget.controller.getQuote())
+                    )
+                  ],
+                )),
             const SizedBox(
               height: 20,
             )

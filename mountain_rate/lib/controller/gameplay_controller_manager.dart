@@ -6,6 +6,8 @@ class CardManagerController {
   List<MountainModel> likedList = List.empty(growable: true);
   List<MountainModel> dislikedList = List.empty(growable: true);
 
+  int i = 0;
+
   addLiked(MountainModel model) {
     likedList.add(model);
   }
@@ -20,5 +22,10 @@ class CardManagerController {
         MaterialPageRoute(
             builder: (context) =>
                 LikedScreen(likedList: likedList, dislikedList: dislikedList)));
+  }
+
+  getQuote() {
+    i++;
+    return "asd${i}";
   }
 }
