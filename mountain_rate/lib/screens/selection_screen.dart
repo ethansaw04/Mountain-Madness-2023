@@ -25,14 +25,14 @@ class _SelectionScreenState extends State<SelectionScreen> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             const Padding(padding: EdgeInsets.only(top: 30.0)),
-            const Text("Good Mountain Bad Mountain????",
+            const Text("Good Mountain\nBad Mountain????",
                 textAlign: TextAlign.center,
                 style: TextStyle(
                     fontFamily: "Reglisse Back",
                     decoration: TextDecoration.none,
                     fontSize: 100,
                     height: 0.75,
-                    color: Colors.black)),
+                    color: Color.fromRGBO(247, 240, 229, 1))),
             const SizedBox(
               height: 30,
             ),
@@ -52,6 +52,7 @@ class _SelectionScreenState extends State<SelectionScreen> {
                         child: IconButton(
                           icon: const Icon(
                             Icons.favorite,
+                            color: Color.fromRGBO(247, 240, 229, 1),
                           ),
                           iconSize: 75,
                           style: ButtonStyle(

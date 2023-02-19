@@ -30,11 +30,11 @@ class _LikedScreenState extends State<LikedScreen> {
           onPressed: () => Navigator.of(context).pop(),
         ), 
         title: Center (child: Text(
-          "     Which mountains did you like?",
+          "     To Mountain or Not To Mountain (Your Mountain Matches!)",
           style: TextStyle(
               fontSize: 18.0,
               fontWeight: FontWeight.bold,
-              color: Colors.black87),
+              color: Color.fromRGBO(247, 240, 229, 1)),
         )),
       ),
       body: Padding(
