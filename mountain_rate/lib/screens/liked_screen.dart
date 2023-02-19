@@ -20,12 +20,16 @@ class _LikedScreenState extends State<LikedScreen> {
     // );
     return Scaffold(
       appBar: AppBar(
-        leading: IconButton(
-          icon: const Icon(Icons.arrow_back_ios, color: Colors.black),
+        leading: TextButton(
+          style: ButtonStyle(
+            foregroundColor: MaterialStateProperty.all<Color>(Colors.black),
+            backgroundColor: MaterialStatePropertyAll(Colors.white),
+          ),
+          child: Text('Back'),
           onPressed: () => Navigator.of(context).pop(),
         ), 
         title: Text(
-          "Which mountains did you like?",
+          "     Which mountains did you like?",
           style: TextStyle(
               fontSize: 18.0,
               fontWeight: FontWeight.bold,
