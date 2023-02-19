@@ -27,7 +27,7 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
         body: Container(
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
           image: DecorationImage(
               image: AssetImage("assets/images/mountainback.jpg"),
               fit: BoxFit.cover)),
@@ -35,8 +35,8 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
-            Padding(padding: EdgeInsets.only(top: 50.0)),
-            SizedBox(
+            const Padding(padding: EdgeInsets.only(top: 50.0)),
+            const SizedBox(
                 child: Text("\nHow Mountain is  \nthat Mountain?  ",
                     textAlign: TextAlign.left,
                     style: TextStyle(
@@ -52,7 +52,7 @@ class _SplashScreenState extends State<SplashScreen> {
             // ),
             // SizedBox(height: 250),
             Column(
-              children: [
+              children: const [
                 Text(
                   "Loading..",
                   style: TextStyle(
@@ -76,7 +76,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
   startTime() async {
     readJSON().then((value) {
-      Timer(const Duration(milliseconds: 1000), () => route(value));
+      Timer(const Duration(milliseconds: 4500), () => route(value));
     });
   }
 
