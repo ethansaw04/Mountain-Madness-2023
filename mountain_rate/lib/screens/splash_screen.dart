@@ -27,11 +27,26 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
+        body: Container(
+      decoration: const BoxDecoration(
+          image: DecorationImage(
+              image: AssetImage("assets/images/home_art.jpg"),
+              fit: BoxFit.cover)),
+      child: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: const <Widget>[
-            Padding(padding: EdgeInsets.only(top: 100.0)),
+            Padding(padding: EdgeInsets.only(top: 20.0)),
+            Expanded(
+                child: Text("How Mountain is that Mountain?",
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                        fontFamily: "Reglisse Back",
+                        decoration: TextDecoration.none,
+                        fontSize: 100,
+                        height: 0.75,
+                        color: Colors.black))),
+            Padding(padding: EdgeInsets.only(top: 20.0)),
             Text(
               "Loading..",
               style: TextStyle(fontSize: 20.0, color: Colors.blue),
@@ -44,7 +59,7 @@ class _SplashScreenState extends State<SplashScreen> {
           ],
         ),
       ),
-    );
+    ));
   }
 
   startTime() async {
