@@ -4,161 +4,377 @@
         "display_name": "Burnaby Mountain",
         "height": "370 m (1,214 ft) ",
         "location": "Canada",
+        "fact": "Home to the world's best university!",
         "climbers": "Mitchell Gale",
-        "type": "Forested",
-        "fact": "Home to the world's best university!"
+        "type": "Forested"
     },
     {
         "file_name": "mount_everest.jpg",
         "display_name": "Mount Everest",
         "height": "8,844 m (29,017 ft)",
         "location": "Nepal",
+        "fact": "Mount Everest rises 40 cm per century!",
         "climbers": "Norgay and Sir Edmund Hillary",
-        "type": "Fold",
-        "fact": "Mount Everest rises 40 cm per century!"
+        "type": "Fold"
     },
     {
         "file_name": "k2.jpeg",
         "display_name": "K2",
         "height": "8,611 m (28,251 ft)",
         "location": "Pakistan",
+        "fact": "Second highest mountain on earth!",
         "climbers": "Lino Lacedelli and Achille Compagnoni",
-        "type": "Fold",
-        "fact": "Second highest mountain on earth!"
+        "type": "Fold"
     },
     {
         "file_name": "denali.jpg",
         "display_name": "Denali",
         "height": "6,190 m (20,310 ft)",
         "location": "USA",
+        "fact": "Highest mountain peak in North America",
         "climbers": "Hudson Stuck, Harry Karstens, Walter Harper, and Robert Tatum",
-        "type": "Granitic pluton",
-        "fact": "Highest mountain peak in North America"
+        "type": "Granitic pluton"
     },
     {
         "file_name": "mount_logan.jpg",
         "display_name": "Mount Logan",
         "height": "5,959 m (19,551 ft)",
         "location": "Canada",
+        "fact": "Pierre Trudeau, almost renamed Mount Logan to Mount Trudeau!",
         "climbers": "Albert H. MacCarthy ",
-        "type": "Granodiorite",
-        "fact": "Pierre Trudeau, almost renamed Mount Logan to Mount Trudeau!"
+        "type": "Granodiorite"
     },
     {
         "file_name": "kilimanjaro.jpg",
         "display_name": "Mount Kilimanjaro",
         "height": "5,895 m (19,341 ft)",
         "location": "Tanzania",
+        "fact": "Highest freestanding mountain in the world",
         "climbers": "Fritz Klute",
-        "type": "Stratovolcano",
-        "fact": "Highest freestanding mountain in the world"
+        "type": "Stratovolcano"
     },
     {
         "file_name": "kangchenjunga.jpg",
         "display_name": "Kangchenjunga",
         "height": "7,756 m (25,447 ft)",
         "location": "Himalayas",
+        "fact": "UNESCO world heritage site",
         "climbers": "Joe Brown, George Band",
-        "type": "Sacred",
-        "fact": "UNESCO world heritage site"
+        "type": "Sacred"
     },
     {
         "file_name": "saint_elias.jpg",
         "display_name": "Mount Saint Elias",
         "height": "5,489 m (18, 008 ft)",
         "location": "Canada/USA",
+        "fact": "Sits on the Yukon and Alaska border",
         "climbers": "Luigi Amedeo",
-        "type": "Volcano",
-        "fact": "Sits on the Yukon and Alaska border"
+        "type": "Volcano"
     },
     {
         "file_name": "aconcagua.jpg",
         "display_name": "Aconcagua",
         "height": "6,960 m (22,837 ft)",
         "location": "Argentina",
+        "fact": "Highest non-technical mountain in the world",
         "climbers": "Karl Egloff",
-        "type": "Inactive Volcano",
-        "fact": "Highest non-technical mountain in the world"
+        "type": "Inactive Volcano"
     },
     {
         "file_name": "elbrus.jpg",
         "display_name": "Mount Elbrus",
         "height": "5,642 m (18, 510 ft)",
         "location": "Russia",
+        "fact": "Nazis place a swastika on the summit during WW2",
         "climbers": "Georgi Emmanuel",
-        "type": "Stratovolcano",
-        "fact": "Nazis place a swastika on the summit during WW2"
+        "type": "Stratovolcano"
     },
     {
         "file_name": "lucania.jpeg",
         "display_name": "Mount Lucania",
         "height": "5,420 m (17,190 ft)",
         "location": "Canada",
+        "fact": "Named after a ship that sailed from Liverpool to New York",
         "climbers": "Bradford Washburn",
-        "type": "Inactive Volcano",
-        "fact": "Named after a ship that sailed from Liverpool to New York"
+        "type": "Inactive Volcano"
     },
     {
         "file_name": "fairweather.jpg",
         "display_name": "Mount Fairweather",
         "height": "4,653 m (15,266 ft)",
         "location": "Canada",
+        "fact": "Named based on the unusually good weather at the time",
         "climbers": "Allen Carpe",
-        "type": "Coastal",
-        "fact": "Named based on the unusually good weather at the time"
+        "type": "Coastal"
     },
     {
         "file_name": "nanga_parbat.jpg",
         "display_name": "Nanga Parbat",
         "height": "8,126 m (26,660 ft)",
         "location": "Pakistan",
+        "fact": "The Kashmiri name Nanga Parbat is derived from the Sanskrit words nagna parvata, meaning \u201cnaked mountain.\u201d",
         "climbers": "Hermann Buhl",
-        "type": "Fold",
-        "fact": "The Kashmiri name Nanga Parbat is derived from the Sanskrit words nagna parvata, meaning \u201cnaked mountain.\u201d"
+        "type": "Fold"
     },
     {
         "file_name": "orizaba.jpg",
         "display_name": "Pico de Orizaba",
         "height": "5,6363 m (18,491 ft)",
         "location": "Mexico",
+        "fact": "Was first summitted during and American occupation",
         "climbers": "William F. Raynolds",
-        "type": "Stratovolcano",
-        "fact": "Was first summitted during and American occupation"
+        "type": "Stratovolcano"
     },
     {
         "file_name": "kongurtagh.jpg",
         "display_name": "Kongur Tagh",
         "height": "7,649 m (25,095 ft)",
         "location": "China",
+        "fact": "Kongur was not discovered until 1900 by Europeans due to its remoteness and being hidden by nearby peaks.",
         "climbers": "Chris Bonington, Al Rouse",
-        "type": "Fold",
-        "fact": "Kongur was not discovered until 1900 by Europeans due to its remoteness and being hidden by nearby peaks."
+        "type": "Fold"
     },
     {
         "file_name": "rainier.jpg",
         "display_name": "Mount Rainier",
         "height": "4,392 m (14,411 ft)",
         "location": "USA",
+        "fact": "Is considered to be one of the most dangerous volcanos in the world",
         "climbers": "Philemon Beecher Van Trump",
-        "type": "Volcano",
-        "fact": "Is considered to be one of the most dangerous volcanos in the world"
+        "type": "Volcano"
     },
     {
         "file_name": "hubbard.jpg",
         "display_name": "Mount Hubbard",
         "height": "4,557 m (14,951 ft)",
         "location": "Canada/USA",
+        "fact": "The mountain was named in 1890 by U.S. Geological Survey geologist Israel Russell after Gardiner Greene Hubbard",
         "climbers": "Walter Wood",
-        "type": "Fold",
-        "fact": "The mountain was named in 1890 by U.S. Geological Survey geologist Israel Russell after Gardiner Greene Hubbard"
+        "type": "Fold"
     },
     {
         "file_name": "damavand.png",
         "display_name": "Mount Damavand",
         "height": "5,671 m (18,606 ft)",
         "location": "Iran",
+        "fact": "In Zoroastrian texts and mythology, the three-headed dragon A\u017ei Dah\u0101ka was chained within Mount Dam\u0101vand, there to remain until the end of the world.",
         "climbers": "Abu Dolaf Kazraji",
-        "type": "Stratovolcano",
-        "fact": "In Zoroastrian texts and mythology, the three-headed dragon A\u017ei Dah\u0101ka was chained within Mount Dam\u0101vand, there to remain until the end of the world."
+        "type": "Stratovolcano"
+    },
+    {
+        "file_name": "ararat.jpg",
+        "display_name": "Mount Ararat",
+        "height": "5,137 m (16,854 ft)",
+        "location": "Turkey",
+        "fact": "Commonly accepted as the biblically accurate location of Noah's Ark!",
+        "climbers": "Friedrich Parrot and Khachatur Abovian",
+        "type": "Compound Volcano"
+    },
+    {
+        "file_name": "augusta.jpg",
+        "display_name": "Mount Augusta",
+        "height": "4289 m (14,070 ft)",
+        "location": "USA",
+        "fact": "Also known as, Boundary Peak 183!",
+        "climbers": "Peter Schoening",
+        "type": "Fold"
+    },
+    {
+        "file_name": "alverstone.jpg",
+        "display_name": "Mount Alverstone",
+        "height": "4,420 m (14,501 ft)",
+        "location": "Canada/USA",
+        "fact": "The mountain was named in 1908 for Lord Richard Everard Webster Alverstone, Lord Chief Justice of England",
+        "climbers": "",
+        "type": ""
+    },
+    {
+        "file_name": "sumas.jpg",
+        "display_name": "Mount Sumas",
+        "height": "1,047 m (3,434 ft)",
+        "location": "Canada/USA",
+        "fact": "Primarily used for timber harvest!",
+        "climbers": "Cassidy Buchanan",
+        "type": ""
+    },
+    {
+        "file_name": "tirich-mir.jpg",
+        "display_name": "Tirich Mir",
+        "height": "7,708 m (25,289 ft)",
+        "location": "Pakistan",
+        "fact": "According to the polytheist Kalash people who live nearby, this mountain is the domain of the goddess Krumai. She appears in the form of a wild goat, and she is associated with childbirth.",
+        "climbers": "",
+        "type": ""
+    },
+    {
+        "file_name": "blackburn.jpg",
+        "display_name": "Mount Blackburn",
+        "height": "4996 m (16,390 ft )",
+        "location": "USA",
+        "fact": "The mountain is an old, eroded shield volcano, the second-highest volcano in the U.S.",
+        "climbers": "",
+        "type": ""
+    },
+    {
+        "file_name": "gongga.jpg",
+        "display_name": "Gonggar Mountain",
+        "height": "7,556 m (24,790 ft)",
+        "location": "China",
+        "fact": "Also known as Minya Konka and colloquially as \"The King of Sichuan Mountains\"",
+        "climbers": "",
+        "type": ""
+    },
+    {
+        "file_name": "montblanc.jpg",
+        "display_name": "Mont Blanc",
+        "height": "4,807 m (15,773 ft)",
+        "location": "France/Italy",
+        "fact": "The mountain was the scene of two fatal air crashes; Air India Flight 245 in 1950 and Air India Flight 101 in 1966.",
+        "climbers": "",
+        "type": ""
+    },
+    {
+        "file_name": "waddington.jpg",
+        "display_name": "Mount Waddington",
+        "height": "4,019 m (13,186 ft)",
+        "location": "Canada",
+        "fact": "Once known as Mystery Mountain, Waddington is the highest peak in the Coast Mountains of British Columbia, Canada.",
+        "climbers": "",
+        "type": ""
+    },
+    {
+        "file_name": "longspeak.jpg",
+        "display_name": "Longs Peak",
+        "height": "\t4346 m (14,259 ft)",
+        "location": "USA",
+        "fact": "Longs Peak is described in Jules Verne's \"From the Earth to the Moon\" as the location of \"the Telescope of the Rocky Mountains\", built for the purpose of tracking the Columbiad projectile on her flight to the Moon.",
+        "climbers": "",
+        "type": ""
+    },
+    {
+        "file_name": "elbert.jpg",
+        "display_name": "Mount Elbert",
+        "height": " 4401.2 m (14,440 ft)",
+        "location": "USA",
+        "fact": "Elbert has been climbed by horse, ATV, jeep and even a helicopter!",
+        "climbers": "",
+        "type": ""
+    },
+    {
+        "file_name": "xixia.jpg",
+        "display_name": "Xixiabangma Peak",
+        "height": "\t8,027 m (26,335 ft)",
+        "location": "China",
+        "fact": "The glacier and snow-covered peak was first scaled by a Chinese expedition in 1964!",
+        "climbers": "",
+        "type": ""
+    },
+    {
+        "file_name": "whitney.jpg",
+        "display_name": "Mount Whitney",
+        "height": "4,421 m (14,505 ft)",
+        "location": "USA",
+        "fact": "The only animals living on Mount Whitney are transient, such as the butterfly Parnassius phoebus and the gray-crowned rosy finch.",
+        "climbers": "",
+        "type": ""
+    },
+    {
+        "file_name": "fuji.jpg",
+        "display_name": "Mount Fuji",
+        "height": "3,778 m (12,395 ft)",
+        "location": "Japan",
+        "fact": "Mount Fuji is three volcanoes in one!",
+        "climbers": "",
+        "type": ""
+    },
+    {
+        "file_name": "ismoil.jpg",
+        "display_name": "Ismoil Somoni Peak",
+        "height": "7,495 m (24,590 ft)",
+        "location": "Tajikistan",
+        "fact": "Ismoil Somali Peak is named after Ismail Samani, a ruler of the Samanid dynasty!",
+        "climbers": "",
+        "type": ""
+    },
+    {
+        "file_name": "popo.jpg",
+        "display_name": "Popocat\u00e9petl",
+        "height": "\t5,426 m (17,802 ft)",
+        "location": "Mexico",
+        "fact": "Popocat\u00e9petl is one of the most active volcanoes in Mexico and the most famous, having had more than 15 major eruptions since the arrival of the Spanish in 1519.",
+        "climbers": "",
+        "type": ""
+    },
+    {
+        "file_name": "nandadevi.png",
+        "display_name": "Nanda Devi",
+        "height": "\t7,816 m (25,643 ft)",
+        "location": "India",
+        "fact": "The peak, whose name means \"Bliss-Giving Goddess\", is regarded as the patron goddess of the Garhwal and Kumaon Himalayas!",
+        "climbers": "",
+        "type": ""
+    },
+    {
+        "file_name": "kinabalu.jpg",
+        "display_name": "Mount Kinabalu",
+        "height": "4,095 m (13,435 ft)",
+        "location": "Malaysia",
+        "fact": "A recent botanical survey of the mountain estimated a staggering 5,000 to 6,000 plant species, which is more than all of Europe and North America (excluding tropical regions of Mexico) combined!",
+        "climbers": "",
+        "type": ""
+    },
+    {
+        "file_name": "hayes.jpg",
+        "display_name": "Mount Hayes",
+        "height": "4,216 m (13,832 ft)",
+        "location": "USA",
+        "fact": "Mount Hayes was first climbed on August 1, 1941, by Bradford Washburn, Barbara Washburn,[4] Benjamin Ferris, Sterling Hendricks, Henry Hall, and William Shand!",
+        "climbers": "",
+        "type": ""
+    },
+    {
+        "file_name": "baturasar.jpg",
+        "display_name": "Batura Sar",
+        "height": "7,795 m (25,574 ft)",
+        "location": "Pakistan",
+        "fact": "Batura Sar, also referred to as Batura I, is the 25th-highest mountain on Earth!",
+        "climbers": "",
+        "type": ""
+    },
+    {
+        "file_name": "toubkal.jpg",
+        "display_name": "Toubkal",
+        "height": "4,167 m (13,671 ft)",
+        "location": "Morocco",
+        "fact": "Toubkal is popular with trekkers and ski mountaineers, but less so with climbers, despite its ease of access and sunny climate.",
+        "climbers": "",
+        "type": ""
+    },
+    {
+        "file_name": "cameroon.jpg",
+        "display_name": "Mount Cameroon",
+        "height": "4,040 m (13,250 ft)",
+        "location": "Cameroon",
+        "fact": "Large mammals on the mountain include the African forest elephant, red river hog, bushbuck, bay duiker, blue duiker, and yellow-backed duiker!",
+        "climbers": "",
+        "type": ""
+    },
+    {
+        "file_name": "puncak.jpg",
+        "display_name": "Puncak Jaya",
+        "height": "4,884 m (16,024 ft)",
+        "location": "Papua New Guinea",
+        "fact": "Puncak Jaya is the highest mountain peak of an island on Earth!",
+        "climbers": "",
+        "type": ""
+    },
+    {
+        "file_name": "manaslu.jpg",
+        "display_name": "Manaslu",
+        "height": "8,163 m (26,781 ft)",
+        "location": "Nepal",
+        "fact": "The name Manaslu means \"mountain of the spirit\" and is derived from the Sanskrit word manasa, meaning \"intellect\" or \"soul\".",
+        "climbers": "",
+        "type": ""
     }
 ]

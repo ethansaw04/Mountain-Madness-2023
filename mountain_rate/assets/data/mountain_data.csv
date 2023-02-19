@@ -1,19 +1,43 @@
-file_name,display_name,height,location,climbers,type,fact
-burnaby_mountain.jpg,Burnaby Mountain,"370 m (1,214 ft) ",Canada,Mitchell Gale,Forested,Home to the world's best university!
-mount_everest.jpg,Mount Everest,"8,844 m (29,017 ft)",Nepal,Norgay and Sir Edmund Hillary,Fold,Mount Everest rises 40 cm per century!
-k2.jpeg,K2,"8,611 m (28,251 ft)",Pakistan,Lino Lacedelli and Achille Compagnoni,Fold,Second highest mountain on earth!
-denali.jpg,Denali,"6,190 m (20,310 ft)",USA,"Hudson Stuck, Harry Karstens, Walter Harper, and Robert Tatum",Granitic pluton,Highest mountain peak in North America
-mount_logan.jpg,Mount Logan,"5,959 m (19,551 ft)",Canada,Albert H. MacCarthy ,Granodiorite,"Pierre Trudeau, almost renamed Mount Logan to Mount Trudeau!"
-kilimanjaro.jpg,Mount Kilimanjaro,"5,895 m (19,341 ft)",Tanzania,Fritz Klute,Stratovolcano,Highest freestanding mountain in the world
-kangchenjunga.jpg,Kangchenjunga,"7,756 m (25,447 ft)",Himalayas,"Joe Brown, George Band",Sacred,UNESCO world heritage site
-saint_elias.jpg,Mount Saint Elias,"5,489 m (18, 008 ft)",Canada/USA,Luigi Amedeo,Volcano,Sits on the Yukon and Alaska border
-aconcagua.jpg,Aconcagua,"6,960 m (22,837 ft)",Argentina,Karl Egloff,Inactive Volcano,Highest non-technical mountain in the world
-elbrus.jpg,Mount Elbrus,"5,642 m (18, 510 ft)",Russia,Georgi Emmanuel,Stratovolcano,Nazis place a swastika on the summit during WW2
-lucania.jpeg,Mount Lucania,"5,420 m (17,190 ft)",Canada,Bradford Washburn,Inactive Volcano,Named after a ship that sailed from Liverpool to New York
-fairweather.jpg,Mount Fairweather,"4,653 m (15,266 ft)",Canada,Allen Carpe,Coastal,Named based on the unusually good weather at the time
-nanga_parbat.jpg,Nanga Parbat,"8,126 m (26,660 ft)",Pakistan,Hermann Buhl,Fold,"The Kashmiri name Nanga Parbat is derived from the Sanskrit words nagna parvata, meaning “naked mountain.”"
-orizaba.jpg,Pico de Orizaba,"5,6363 m (18,491 ft)",Mexico,William F. Raynolds,Stratovolcano,Was first summitted during and American occupation
-kongurtagh.jpg,Kongur Tagh,"7,649 m (25,095 ft)",China,"Chris Bonington, Al Rouse",Fold,Kongur was not discovered until 1900 by Europeans due to its remoteness and being hidden by nearby peaks.
-rainier.jpg,Mount Rainier,"4,392 m (14,411 ft)",USA,Philemon Beecher Van Trump,Volcano,Is considered to be one of the most dangerous volcanos in the world
-hubbard.jpg,Mount Hubbard,"4,557 m (14,951 ft)",Canada/USA,Walter Wood,Fold,The mountain was named in 1890 by U.S. Geological Survey geologist Israel Russell after Gardiner Greene Hubbard
-damavand.png,Mount Damavand,"5,671 m (18,606 ft)",Iran,Abu Dolaf Kazraji,Stratovolcano,"In Zoroastrian texts and mythology, the three-headed dragon Aži Dahāka was chained within Mount Damāvand, there to remain until the end of the world."
+file_name,display_name,height,location,fact,climbers,type
+burnaby_mountain.jpg,Burnaby Mountain,"370 m (1,214 ft) ",Canada,Home to the world's best university!,Mitchell Gale,Forested
+mount_everest.jpg,Mount Everest,"8,844 m (29,017 ft)",Nepal,Mount Everest rises 40 cm per century!,Norgay and Sir Edmund Hillary,Fold
+k2.jpeg,K2,"8,611 m (28,251 ft)",Pakistan,Second highest mountain on earth!,Lino Lacedelli and Achille Compagnoni,Fold
+denali.jpg,Denali,"6,190 m (20,310 ft)",USA,Highest mountain peak in North America,"Hudson Stuck, Harry Karstens, Walter Harper, and Robert Tatum",Granitic pluton
+mount_logan.jpg,Mount Logan,"5,959 m (19,551 ft)",Canada,"Pierre Trudeau, almost renamed Mount Logan to Mount Trudeau!",Albert H. MacCarthy ,Granodiorite
+kilimanjaro.jpg,Mount Kilimanjaro,"5,895 m (19,341 ft)",Tanzania,Highest freestanding mountain in the world,Fritz Klute,Stratovolcano
+kangchenjunga.jpg,Kangchenjunga,"7,756 m (25,447 ft)",Himalayas,UNESCO world heritage site,"Joe Brown, George Band",Sacred
+saint_elias.jpg,Mount Saint Elias,"5,489 m (18, 008 ft)",Canada/USA,Sits on the Yukon and Alaska border,Luigi Amedeo,Volcano
+aconcagua.jpg,Aconcagua,"6,960 m (22,837 ft)",Argentina,Highest non-technical mountain in the world,Karl Egloff,Inactive Volcano
+elbrus.jpg,Mount Elbrus,"5,642 m (18, 510 ft)",Russia,Nazis place a swastika on the summit during WW2,Georgi Emmanuel,Stratovolcano
+lucania.jpeg,Mount Lucania,"5,420 m (17,190 ft)",Canada,Named after a ship that sailed from Liverpool to New York,Bradford Washburn,Inactive Volcano
+fairweather.jpg,Mount Fairweather,"4,653 m (15,266 ft)",Canada,Named based on the unusually good weather at the time,Allen Carpe,Coastal
+nanga_parbat.jpg,Nanga Parbat,"8,126 m (26,660 ft)",Pakistan,"The Kashmiri name Nanga Parbat is derived from the Sanskrit words nagna parvata, meaning “naked mountain.”",Hermann Buhl,Fold
+orizaba.jpg,Pico de Orizaba,"5,6363 m (18,491 ft)",Mexico,Was first summitted during and American occupation,William F. Raynolds,Stratovolcano
+kongurtagh.jpg,Kongur Tagh,"7,649 m (25,095 ft)",China,Kongur was not discovered until 1900 by Europeans due to its remoteness and being hidden by nearby peaks.,"Chris Bonington, Al Rouse",Fold
+rainier.jpg,Mount Rainier,"4,392 m (14,411 ft)",USA,Is considered to be one of the most dangerous volcanos in the world,Philemon Beecher Van Trump,Volcano
+hubbard.jpg,Mount Hubbard,"4,557 m (14,951 ft)",Canada/USA,The mountain was named in 1890 by U.S. Geological Survey geologist Israel Russell after Gardiner Greene Hubbard,Walter Wood,Fold
+damavand.png,Mount Damavand,"5,671 m (18,606 ft)",Iran,"In Zoroastrian texts and mythology, the three-headed dragon Aži Dahāka was chained within Mount Damāvand, there to remain until the end of the world.",Abu Dolaf Kazraji,Stratovolcano
+ararat.jpg,Mount Ararat,"5,137 m (16,854 ft)",Turkey,Commonly accepted as the biblically accurate location of Noah's Ark!,Friedrich Parrot and Khachatur Abovian,Compound Volcano
+augusta.jpg,Mount Augusta,"4289 m (14,070 ft)",USA,"Also known as, Boundary Peak 183!",Peter Schoening,Fold
+alverstone.jpg,Mount Alverstone,"4,420 m (14,501 ft)",Canada/USA,"The mountain was named in 1908 for Lord Richard Everard Webster Alverstone, Lord Chief Justice of England",,
+sumas.jpg,Mount Sumas,"1,047 m (3,434 ft)",Canada/USA,Primarily used for timber harvest!,Cassidy Buchanan,
+tirich-mir.jpg,Tirich Mir,"7,708 m (25,289 ft)",Pakistan,"According to the polytheist Kalash people who live nearby, this mountain is the domain of the goddess Krumai. She appears in the form of a wild goat, and she is associated with childbirth.",,
+blackburn.jpg,Mount Blackburn,"4996 m (16,390 ft )",USA,"The mountain is an old, eroded shield volcano, the second-highest volcano in the U.S.",,
+gongga.jpg,Gonggar Mountain,"7,556 m (24,790 ft)",China,"Also known as Minya Konka and colloquially as ""The King of Sichuan Mountains""",,
+montblanc.jpg,Mont Blanc,"4,807 m (15,773 ft)",France/Italy,The mountain was the scene of two fatal air crashes; Air India Flight 245 in 1950 and Air India Flight 101 in 1966.,,
+waddington.jpg,Mount Waddington,"4,019 m (13,186 ft)",Canada,"Once known as Mystery Mountain, Waddington is the highest peak in the Coast Mountains of British Columbia, Canada.",,
+longspeak.jpg,Longs Peak,"	4346 m (14,259 ft)",USA,"Longs Peak is described in Jules Verne's ""From the Earth to the Moon"" as the location of ""the Telescope of the Rocky Mountains"", built for the purpose of tracking the Columbiad projectile on her flight to the Moon.",,
+elbert.jpg,Mount Elbert," 4401.2 m (14,440 ft)",USA,"Elbert has been climbed by horse, ATV, jeep and even a helicopter!",,
+xixia.jpg,Xixiabangma Peak,"	8,027 m (26,335 ft)",China,The glacier and snow-covered peak was first scaled by a Chinese expedition in 1964!,,
+whitney.jpg,Mount Whitney,"4,421 m (14,505 ft)",USA,"The only animals living on Mount Whitney are transient, such as the butterfly Parnassius phoebus and the gray-crowned rosy finch.",,
+fuji.jpg,Mount Fuji,"3,778 m (12,395 ft)",Japan,Mount Fuji is three volcanoes in one!,,
+ismoil.jpg,Ismoil Somoni Peak,"7,495 m (24,590 ft)",Tajikistan,"Ismoil Somali Peak is named after Ismail Samani, a ruler of the Samanid dynasty!",,
+popo.jpg,Popocatépetl,"	5,426 m (17,802 ft)",Mexico,"Popocatépetl is one of the most active volcanoes in Mexico and the most famous, having had more than 15 major eruptions since the arrival of the Spanish in 1519.",,
+nandadevi.png,Nanda Devi,"	7,816 m (25,643 ft)",India,"The peak, whose name means ""Bliss-Giving Goddess"", is regarded as the patron goddess of the Garhwal and Kumaon Himalayas!",,
+kinabalu.jpg,Mount Kinabalu,"4,095 m (13,435 ft)",Malaysia,"A recent botanical survey of the mountain estimated a staggering 5,000 to 6,000 plant species, which is more than all of Europe and North America (excluding tropical regions of Mexico) combined!",,
+hayes.jpg,Mount Hayes,"4,216 m (13,832 ft)",USA,"Mount Hayes was first climbed on August 1, 1941, by Bradford Washburn, Barbara Washburn,[4] Benjamin Ferris, Sterling Hendricks, Henry Hall, and William Shand!",,
+baturasar.jpg,Batura Sar,"7,795 m (25,574 ft)",Pakistan,"Batura Sar, also referred to as Batura I, is the 25th-highest mountain on Earth!",,
+toubkal.jpg,Toubkal,"4,167 m (13,671 ft)",Morocco,"Toubkal is popular with trekkers and ski mountaineers, but less so with climbers, despite its ease of access and sunny climate.",,
+cameroon.jpg,Mount Cameroon,"4,040 m (13,250 ft)",Cameroon,"Large mammals on the mountain include the African forest elephant, red river hog, bushbuck, bay duiker, blue duiker, and yellow-backed duiker!",,
+puncak.jpg,Puncak Jaya,"4,884 m (16,024 ft)",Papua New Guinea,Puncak Jaya is the highest mountain peak of an island on Earth!,,
+manaslu.jpg,Manaslu,"8,163 m (26,781 ft)",Nepal,"The name Manaslu means ""mountain of the spirit"" and is derived from the Sanskrit word manasa, meaning ""intellect"" or ""soul"".",,
