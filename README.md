@@ -2,7 +2,8 @@
 Bring out your inner mountain connoisseur with, "How Mountain Is That Mountain?" Learn about mountains with this fun and interactive app that will have you swiping left or right on all the best mountains in the world. 
 
 ### How to run the project
-To watch a comprehensive video on how to install please go [here](https://1sfu-my.sharepoint.com/:v:/g/personal/eda31_sfu_ca/EZMhbGzgHqBPmg9ZvEgdkW8Brp6SCjMUe9x-xTwFPbfobQ?e=eArsQu)
+To watch a comprehensive video on how to install please go [here](https://1sfu-my.sharepoint.com/:v:/g/personal/eda31_sfu_ca/EZMhbGzgHqBPmg9ZvEgdkW8Brp6SCjMUe9x-xTwFPbfobQ?e=eArsQu)  
+**Note: Evan is not a talented video editor, so please skip the first 15 seconds of the video.**  
 
 1. Follow the instructions to [install Flutter SDK](https://docs.flutter.dev/get-started/install)
    - For more information refer to video link above
