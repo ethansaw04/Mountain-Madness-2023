@@ -2,7 +2,7 @@
 Bring out your inner mountain connoisseur with, "How Mountain Is That Mountain?" Learn about mountains with this fun and interactive app that will have you swiping left or right on all the best mountains in the world. 
 
 ### How to run the project
-To watch a comprehensive video on how to install please go [here](https://docs.flutter.dev/get-started/install)
+To watch a comprehensive video on how to install please go [here](https://1sfu-my.sharepoint.com/:v:/g/personal/eda31_sfu_ca/EZMhbGzgHqBPmg9ZvEgdkW8Brp6SCjMUe9x-xTwFPbfobQ?e=eArsQu)
 
 1. Follow the instructions to [install Flutter SDK](https://docs.flutter.dev/get-started/install)
    - For more information refer to video link above
@@ -15,6 +15,12 @@ To watch a comprehensive video on how to install please go [here](https://docs.f
 6. Here you can view a wide array of mountains and swipe right if they are mountainy enough, and left if they are small boring hills
 7. To view and reflect on your ratings of mountainness click the heart to be redirect to the liked page
 
+### Issues
+- Broken Flutter Install
+  - Was fixed by a reinstall of the flutter SDK
+- Windows permission denied to flutter read/write
+  - Permissions were being blocked by antivirus. Was fixed by temporarily disabling it
+  
 ### Languages and Technologies
 - Flutter
 - Dart
